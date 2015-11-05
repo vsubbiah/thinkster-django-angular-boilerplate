@@ -1,4 +1,4 @@
-from django.conf.urls import patterns, url
+from django.conf.urls import patterns, include, url
 from thinkster_django_angular_boilerplate.views import IndexView
 
 from rest_framework_nested import routers
